@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
     body{
       max-width: 1200px;
+      background-color: rgb(135, 198, 230);
       margin: 20px auto;
       padding: 0 20px;
       font-family: 'Noto Serif', serif;
@@ -10,7 +11,7 @@
       margin: 0;
       padding: 0;
       text-decoration: none;
-      color: #222;
+      color: rgb(0, 0, 0);
     }
 
     /* nav & footer styles */
@@ -19,7 +20,7 @@
       justify-content: space-between;
       margin-bottom: 60px;
       padding-bottom: 10px;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid rgb(0, 0, 0);
       text-transform: uppercase;
     }
     nav ul{
@@ -35,11 +36,11 @@
       font-size: 3em;
     }
     nav p, nav a{
-      color: #777;
+      color: rgb(0, 0, 0);
       font-weight: 300;
     }
     footer{
-      color: #777;
+      color: rgb(0, 0, 0);
       text-align: center;
       margin: 80px auto 20px;
     }
